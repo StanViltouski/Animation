@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../font/Rubik-Bold.eot');
+    src: url('../font/Rubik-Bold.eot?iefix') format('eot'),
+         url('../font/Rubik-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1280px;
+    height: 910px;
+    background: #000;
+}
+
+#block {
+    overflow: hidden;
+    margin: 85px auto;
+    width: 1280px;
+    height: 720px;
+    background: #2c2c2c;
+}
+
+#canvas-wrapper {
+    position: relative;
+    margin: -8px auto;
+    width: 100%;
+    height: 720px;
+    z-index: 4;
+    transform: rotate(45deg);
+}
+
+.square {
+    display: none;
+    position: relative;
+    margin: 0 auto;
+    width: 2px;
+    height: 2px;
+}
+
+#square1 {
+    top: 359px;
+    background: #2a2a2a;
+    transform: rotate(45deg);
+    z-index: 3;
+}
+
+#square2 {
+    top: 357px;
+    background: #ffc432;
+    transform: rotate(45deg);
+    z-index: 2;
+}
+
+#square3 {
+    top: 355px;
+    background: #464646;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+#square4 {
+    top: 353px;
+    background: #fdfdfd;
+    z-index: 4;
+}
